@@ -25,15 +25,25 @@ const Info = () => {
 
                 </div>
 
-                <div className="Recomendable d-flex w-100 justify-content-center align-items-center p-5">
+                <div className="Recomendable d-flex w-100 justify-content-around align-items-start p-5">
 
-                    <h3>¿Por qué es recomendable compartir tu lectura del contador?</h3>
+                    <div>
 
-                    <p>
-                        Porque enviando tu lectura del contador conocerás de primera mano una información clave para evitar estimaciones y, de este modo, pagar exclusivamente por lo que consumes. 
+                        <h3>¿Por qué es recomendable compartir tu lectura del contador?</h3>
 
-                        Esta revisión en muchas casas se realiza por medio de un profesional que acude a la vivienda de forma bimensual, pero la opción que consideramos más operativa es que la lleves a cabo tú mismo a través de una cómoda aplicación de móvil que te vamos a explicar a continuación.
-                    </p>
+                        <p>
+                            Porque enviando tu lectura del contador conocerás de primera mano una información clave para evitar estimaciones y, de este modo, pagar exclusivamente por lo que consumes.<br/>
+                        </p>
+
+                    </div>
+
+
+                    <div>
+                        <h3>¿Puede realizar uno mismo la lectura?</h3>
+                        <p>Esta revisión en muchas casas se realiza por medio de un profesional que acude a la vivienda de forma bimensual, pero la opción que consideramos más operativa es que la lleves a cabo tú mismo a través de una cómoda aplicación de móvil que te vamos a explicar a continuación.</p>
+
+                    </div>
+
 
                 </div>
 
@@ -50,7 +60,7 @@ const Info = () => {
                             <img src="/img/yo-leo-gas.webp" alt="yo-leo-gas-icono" />
 
                             <p>
-                                Descarga de forma gratuita la App YoLeoGas (disponible en Android e iOS)
+                                Descarga de forma gratuita la App <span>YoLeoGas</span> (disponible en Android e iOS)
                             </p>
 
                         </div>
@@ -74,7 +84,7 @@ const Info = () => {
                             <img src="/img/numero-cups.png" alt="yo-leo-gas-icono" />
 
                             <p>
-                                Di cuál es tu número CUPS (lo encontrarás en tu última factura o en el contador)
+                                Di cuál es tu número <span>CUPS</span>  (lo encontrarás en tu última factura o en el contador)
                             </p>
 
                         </div>
@@ -98,7 +108,7 @@ const Info = () => {
                             <img src="/img/tomar-foto-contador.png" alt="yo-leo-gas-icono" />
 
                             <p>
-                            Haz una foto a tu contador. Verás que aparece un rectángulo naranja entre el que deberás colocar los dígitos. 
+                            <span>Haz una foto a tu contador.</span> Verás que aparece un rectángulo naranja entre el que deberás colocar los dígitos. 
 
                             </p>
 
