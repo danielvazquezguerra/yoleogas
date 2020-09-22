@@ -7,12 +7,11 @@ const Info = () => {
 
     return (
 
-        <section className="InfoWrapper container d-flex justify-content-center align-items-center">
+        <section className="InfoWrapper container justify-content-center align-items-center">
 
             <div className="InfoUp d-flex flex-column justify-content-center align-items-center p-0 m-0">
 
-
-                <div className="LecturaMovil d-flex flex-wrap justify-content-center align-items-center">
+                <div className="LecturaMovil">
 
                     <div className="ImgBox">
 
@@ -21,7 +20,7 @@ const Info = () => {
                     </div>
 
                     <h2>
-                        Desde el móvil puedes compartir tu lectura del contador de forma rápida y, sobre todo, muy sencilla. <br/>
+                        Desde el móvil puedes compartir tu lectura del contador de forma rápida y, sobre todo, muy sencilla.
                     
                         Como sabes, lo más recomendable es hacerlo cada dos meses.
                         

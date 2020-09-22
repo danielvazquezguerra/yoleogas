@@ -26,7 +26,7 @@
         }
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 414px) {
 
         .HeaderMain {
             height: 90px;
@@ -34,6 +34,6 @@
 
         .navbar-brand {
             width: 30%;
-            // margin-left: 20px;
+            margin-left: 20px;
         }
     }
