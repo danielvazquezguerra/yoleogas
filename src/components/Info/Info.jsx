@@ -7,14 +7,18 @@ const Info = () => {
 
     return (
 
-        <section className="InfoWrapper container d-flex justify-content-center align-items-center p-5">
+        <section className="InfoWrapper container d-flex justify-content-center align-items-center">
 
-            <div className="InfoUp d-flex flex-column w-100 justify-content-center align-items-center p-0 m-0">
+            <div className="InfoUp d-flex flex-column justify-content-center align-items-center p-0 m-0">
 
 
-                <div className="LecturaMovil d-flex justify-content-center align-items-center pb-5">
+                <div className="LecturaMovil d-flex flex-wrap justify-content-center align-items-center">
 
-                    <img src="/img/medidor-gas-icono-azul.png" alt="medidor-gas-icono"/>
+                    <div className="ImgBox">
+
+                        <img src="/img/medidor-gas-icono-azul.png" alt="medidor-gas-icono"/>
+
+                    </div>
 
                     <h2>
                         Desde el móvil puedes compartir tu lectura del contador de forma rápida y, sobre todo, muy sencilla. <br/>
@@ -25,7 +29,7 @@ const Info = () => {
 
                 </div>
 
-                <div className="Recomendable d-flex w-100 justify-content-around align-items-start p-5">
+                <div className="Recomendable d-flex flex-wrap w-100 justify-content-around align-items-start">
 
                     <div>
 
@@ -47,7 +51,7 @@ const Info = () => {
 
                 </div>
 
-                <div className="InfoDown d-flex flex-column justify-content-center align-items-center p-5">
+                <div className="InfoDown d-flex flex-column justify-content-center align-items-center">
 
                     <h2>Pasos a seguir para compartir tu lectura por app</h2>
 
@@ -128,13 +132,13 @@ const Info = () => {
 
                     </div>
 
-                    <div className="YaEsta">
+                    <div className="YaEsta d-flex justify-content-center">
 
                         <h3>¡Y ya estaría! No olvides revisar el histórico que encontrarás en la app. De este modo, tendrás una visión real de la evolución de tu consumo.</h3>
 
                     </div>
 
-                    <div className="FormularioBox d-flex flex-wrap justify-content-around align-items-center p-5">
+                    <div className="FormularioBox d-flex flex-wrap justify-content-around align-items-center">
 
 
                         <div className="InfoForm">
@@ -148,7 +152,7 @@ const Info = () => {
 
                         </div>
 
-                        <form className="Formulario d-flex flex-column w-50 align-items-start" id='homeserve' method='post' action='envio3.php'>
+                        <form className="Formulario d-flex flex-column align-items-start" id='homeserve' method='post' action='envio3.php'>
                             <div className="form-group">
                               <label for="formGroupExampleInput">Nombre</label>
                               <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />

@@ -1,11 +1,12 @@
 @import '../../../colors.scss';
 
 
-.Fototitulo {
+.FotoTitulo {
 
     height: 40vh;
     background-image: url(/img/captura-contador-gas-azul-v2.jpg);
     background-size: cover;
+    padding: 2em;
 
     h1 {
         font-family: 'GalanoMedium', sans-serif;
@@ -15,4 +16,23 @@
         width: 70%;
         color: white;
     }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .FotoTitulo {
+        height: 30vh;
+        padding: 2em;
+
+
+    h1 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    }
+
+
+    
+
 }

@@ -1,5 +1,7 @@
 
-
+.HeaderMain {
+    padding: 0px;
+}
 .navbar-brand {
     width: 20%;
     margin: 0.5em;
@@ -9,4 +11,29 @@
 .Logo {
     width: 100%;
     min-width: 150px;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            width: 25%;
+            height: 80px;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .HeaderMain {
+            height: 90px;
+        }
+
+        .navbar-brand {
+            width: 30%;
+            // margin-left: 20px;
+        }
     }

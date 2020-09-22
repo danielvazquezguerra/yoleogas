@@ -5,7 +5,7 @@ const Wrapper = () => {
 
     return (
 
-        <div className="Fototitulo container d-flex p-5 align-items-end">
+        <div className="FotoTitulo container d-flex align-items-end">
 
             <h1>Comparte tu lectura del contador con nosotros</h1>
 

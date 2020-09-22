@@ -8,6 +8,7 @@
 
 .InfoWrapper {
 
+    width: 100vw;
     border-bottom: 4px solid $raisin-black;
 
     img {
@@ -24,10 +25,24 @@
 
 }
 
+.InfoUp {
+    width: 100%;
+}
+
 .LecturaMovil {
 
+    width: 100%;
+    padding: 2em;
+
+    .ImgBox {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        min-width: 200px;
+    }
+
     h2 {
-        width: 100%;
+        width: 50%;
         font-size: 1.5em;
         text-align: left;
         margin: 0px;
@@ -40,23 +55,25 @@
 
 .Recomendable {
     
-    border-top: 4px solid $raisin-black ;
+    border-top: 4px solid $raisin-black;
+    padding: 2em;
 
     div {
         width: 40%;
+        min-width: 300px;
     }
 
     h3 {
         width: 100%;
         font-family: 'GalanoBold', sans-serif;
-        text-align: left;
+        text-align: center;
         padding-right: 20px;
 
     }
 
     p {
         width: 100%;
-        text-align: left;
+        text-align: center;
         // padding-left: 20px;
     }
 }
@@ -64,13 +81,18 @@
 .InfoDown {
 
     width: 100%;
-    border-top: 4px solid $raisin-black ;
+    border-top: 4px solid $raisin-black;
+    padding: 2em;
 
     h2 {
         font-family: 'GalanoBold';
         font-size: 2em;
         width: 60%;
         text-align: center;
+    }
+
+    h3 {
+        font-size: 1.5em;
     }
 }
 
@@ -110,6 +132,11 @@
 
     border-top: 4px solid $raisin-black;
     margin-top: 2em;
+    padding: 2em;
+
+    .Formulario {
+        width: 50%;
+    }
 
     
     .InfoForm {
@@ -131,9 +158,7 @@
         }
     }
     
-    form {
-        width: 100%;
-    }
+
 
     .form-group {
 
@@ -170,7 +195,118 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+
+    .FormularioBox {
+
+        width: 100%;
+
+        
+        .InfoForm {
+
+            width: 100%;
+            
+            h4 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+
+        }
+        
+        .Formulario {
+            width: 100%;
+        }
+}
+
+    .LecturaMovil {
+
+        width: 100%;
+
+        .ImgBox {
+            justify-content: center;
+        }
+
+        h2 {
+            font-size: 1.3em;
+        }
+    }
 
 
 
+}
+
+@media only screen and (max-width: 380px) {
+
+    html {
+        overflow-x: hidden;
+        padding-top: 10px;
+    }
+
+    .InfoWrapper {
+        padding: 0px;
+    }
+
+    .LecturaMovil {
+
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+
+        .ImgBox {
+            justify-content: center;
+        }
+
+        img {
+            margin: 10px;
+        }
+
+        h2 {
+            width: 300px;
+            font-size: 1em;
+            text-align: center;
+            margin-top: 1em;
+            padding: 0px;
+            padding-top: 1em;
+            border: 0px;
+            border-top: 4px solid $blue-crayola;
+        }
+    }
+
+    .InfoDown {
+        padding: 20px;
+
+        h2 {
+            width: 100%;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .Recomendable {
+        border: 0px;
+        padding: 0px 20px 20px 20px;
+
+        h3 {
+            width: 100%;
+            padding: 0px;
+            padding-top: 20px;
+            border-top: 4px solid $raisin-black;
+        }
+    }
+
+    .PasosItem {
+        
+        p {
+            text-align: center;
+        }
+    }
+
+
+
+}
 
