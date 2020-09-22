@@ -4,17 +4,34 @@
 .FotoTitulo {
 
     height: 40vh;
-    background-image: url(/img/captura-contador-gas-azul-v2.jpg);
+    // background-image: url(/img/captura-contador-gas-azul-v2.jpg);
     background-size: cover;
-    padding: 2em;
+    padding: 0px;
+    border: 4px solid $blue-crayola;
+
+
+    .ImgBox {
+
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ChicaImg {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 500px;
+    }
 
     h1 {
         font-family: 'GalanoMedium', sans-serif;
         font-size: 3em;
         line-height: 1em;
         text-align: left;
-        width: 70%;
-        color: white;
+        width: 50%;
+        color: $blue-crayola;
+        padding: 0.6em;
     }
 }
 
