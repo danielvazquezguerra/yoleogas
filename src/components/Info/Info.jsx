@@ -128,6 +128,64 @@ const Info = () => {
 
                     </div>
 
+                    <div className="YaEsta">
+
+                        <h3>¡Y ya estaría! No olvides revisar el histórico que encontrarás en la app. De este modo, tendrás una visión real de la evolución de tu consumo.</h3>
+
+                    </div>
+
+                    <div className="FormularioBox d-flex flex-wrap justify-content-around align-items-center p-5">
+
+
+                        <div className="InfoForm">
+
+                            <h4>¿Todavía no tienes contratado el gas con Gana Energía? </h4>
+                            <p>
+                                Te invitamos a entrar en <a href="https://ganaenergia.com/tarifas-gas">ganaenergía/gas</a> para conocer nuestras competitivas tarifas. <br/><br/>
+                                
+                                O si lo prefieres nos puedes dejar tus datos a continuación y seremos nosotros los que nos pongamos en contacto contigo.
+                            </p>
+
+                        </div>
+
+                        <form className="Formulario d-flex flex-column w-50 align-items-start" id='homeserve' method='post' action='envio3.php'>
+                            <div className="form-group">
+                              <label for="formGroupExampleInput">Nombre</label>
+                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                            </div>
+                            <div className="form-group">
+                              <label for="formGroupExampleInput">Apellido</label>
+                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                            </div>
+                            <div className="form-group">
+                              <label for="formGroupExampleInput">Email</label>
+                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                            </div>
+                            <div className="form-group">
+                              <label for="formGroupExampleInput2">Teléfono</label>
+                              <input type="text" className="form-control" id="formGroupExampleInput2" name="telefono2" placeholder="Déjanos tu teléfono" />
+                            </div>
+                            <div className="proteccion-datos">
+    
+                                <div className="sepcheck">  
+                                    <label>
+                                       <input type="checkbox" value="1" name="inputAviso1" required="" />
+                                            <p className="info-pd">He leído y acepto las condiciones previstas en el <a href="/aviso-legal" target="_blank" id="aviso">Aviso Legal</a></p> 
+                                    </label>
+    
+                                    <label>
+                                        <input type="checkbox" value="1" name="inputPolitica1" required="" />
+                                        <p className="info-pd">Consiento el uso de mis datos según los términos establecidos en esta <a href="https://www.homeserve.es/politica" target="_blank" id="aviso">Política de Privacidad</a></p> 
+                                    </label>
+                                </div>
+    
+                                
+                            </div>
+                            <button>ENVIAR</button>
+                        </form>  
+
+                    </div>
+
                 </div>
 
 
