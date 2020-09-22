@@ -4,3 +4,102 @@
 * {
     color: $raisin-black;
 }
+
+
+.InfoWrapper {
+
+    border-bottom: 4px solid $raisin-black;
+
+    img {
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    
+
+    h3 {
+        font-family: 'GalanoMedium', sans-serif;
+        width: 100%;
+    } 
+
+}
+
+.LecturaMovil {
+
+    h2 {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: left;
+        margin: 0px;
+        color: $blue-crayola;
+        border-left: 4px solid $blue-crayola;
+        padding-left: 20px;
+    }
+    width: 60%;
+}
+
+.Recomendable {
+    
+    border-top: 4px solid $raisin-black ;
+
+    h3 {
+        width: 40%;
+        font-family: 'GalanoBold', sans-serif;
+        text-align: right;
+        padding-right: 20px;
+
+    }
+
+    p {
+        width: 40%;
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+.InfoDown {
+
+    width: 100%;
+    border-top: 4px solid $raisin-black ;
+
+    h2 {
+        font-family: 'GalanoBold';
+        font-size: 2em;
+        width: 60%;
+        text-align: center;
+    }
+}
+
+.PasosItem {
+
+    width: 25%;
+    min-width: 200px;
+    border: 0px;
+    margin: 1em;
+
+    h4 {
+        font-family: 'GalanoBold', sans-serif;
+        font-size: 2em;
+    }
+
+    img {
+        width: 100px;
+        margin: 0px;
+    }
+    
+    p {
+        
+        font-family: 'GalanoNormal', sans-serif;
+        border-top: 4px solid $raisin-black;
+        margin-top: 1em;
+        padding-top: 1em;
+        font-size: 1em;
+
+    }
+
+}
+
+
+
+
+
