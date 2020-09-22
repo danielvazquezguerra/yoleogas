@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'GalanoBold';
+  src: url(/fonts/GalanoGrotesqueAltBold.otf);
+}
+
+@font-face {
+  font-family: 'GalanoMedium';
+  src: url(/fonts/GalanoGrotesqueAltMedium.otf);
+}
+
+@font-face {
+  font-family: 'GalanoNormal';
+  src: url(/fonts/GalanoGrotesqueAlt.otf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
