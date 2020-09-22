@@ -154,19 +154,19 @@ const Info = () => {
 
                         <form className="Formulario d-flex flex-column align-items-start" id='homeserve' method='post' action='envio3.php'>
                             <div className="form-group">
-                              <label for="formGroupExampleInput">Nombre</label>
+                              <label htmlFor="formGroupExampleInput">Nombre</label>
                               <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
-                              <label for="formGroupExampleInput">Apellido</label>
+                              <label htmlFor="formGroupExampleInput">Apellido</label>
                               <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
-                              <label for="formGroupExampleInput">Email</label>
+                              <label htmlFor="formGroupExampleInput">Email</label>
                               <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
-                              <label for="formGroupExampleInput2">Teléfono</label>
+                              <label htmlFor="formGroupExampleInput2">Teléfono</label>
                               <input type="text" className="form-control" id="formGroupExampleInput2" name="telefono2" placeholder="Déjanos tu teléfono" />
                             </div>
                             <div className="proteccion-datos">
@@ -174,12 +174,12 @@ const Info = () => {
                                 <div className="sepcheck">  
                                     <label>
                                        <input type="checkbox" value="1" name="inputAviso1" required="" />
-                                            <p className="info-pd">He leído y acepto las condiciones previstas en el <a href="/aviso-legal" target="_blank" id="aviso">Aviso Legal</a></p> 
+                                            <p className="info-pd">He leído y acepto las condiciones previstas en el <a href="/aviso-legal" target="blank" id="aviso">Aviso Legal</a></p> 
                                     </label>
     
                                     <label>
                                         <input type="checkbox" value="1" name="inputPolitica1" required="" />
-                                        <p className="info-pd">Consiento el uso de mis datos según los términos establecidos en esta <a href="https://www.homeserve.es/politica" target="_blank" id="aviso">Política de Privacidad</a></p> 
+                                        <p className="info-pd">Consiento el uso de mis datos según los términos establecidos en esta <a href="https://www.homeserve.es/politica" target="blank" id="aviso">Política de Privacidad</a></p> 
                                     </label>
                                 </div>
     
