@@ -41,7 +41,7 @@
             width: 20%;
         }
     
-        h2 {
+        p {
             width: 80%;
             font-size: 1.1em;
             text-align: left;
@@ -105,11 +105,7 @@
     border: 0px;
     margin: 1em;
 
-    h4 {
-        font-family: 'GalanoBold', sans-serif;
-        font-size: 2em;
-    }
-
+    
     img {
         width: 100px;
         margin: 0px;
@@ -124,6 +120,12 @@
         font-size: 1em;
     }
     
+    .ItemNumber {
+        font-family: 'GalanoBold', sans-serif;
+        font-size: 3em;
+        border: 0px;
+        margin: 0px;
+    }
     span {
         font-family: 'GalanoBold', sans-serif;
 
@@ -232,7 +234,7 @@
             justify-content: center;
         }
 
-        h2 {
+        p {
             font-size: 1.3em;
         }
     }
@@ -271,11 +273,10 @@
                 height: auto;
             }
     
-            h2 {
+            p {
     
                 font-size: 1em;
                 text-align: center;
-                margin-top: 1em;
                 padding: 0px;
                 padding-top: 1em;
                 border: 0px;

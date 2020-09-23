@@ -19,12 +19,12 @@ const Info = () => {
 
                     </div>
 
-                    <h2>
+                    <p>
                         Desde el móvil puedes compartir tu lectura del contador de forma rápida y, sobre todo, muy sencilla.
                     
                         Como sabes, lo más recomendable es hacerlo cada dos meses.
                         
-                    </h2>
+                    </p>
 
                 </div>
 
@@ -58,9 +58,9 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>1</h4>
+                            <p className="ItemNumber">1</p>
 
-                            <img src="/img/yo-leo-gas.webp" alt="yo-leo-gas-icono" />
+                            <img src="/img/yo-leo-gas-icono.png" alt="yo-leo-gas-icono" />
 
                             <p>
                                 Descarga de forma gratuita la App <span>YoLeoGas</span> (disponible en Android e iOS)
@@ -70,7 +70,7 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>2</h4>
+                            <p className="ItemNumber">2</p>
 
                             <img src="/img/nombra-contador.png" alt="yo-leo-gas-icono" />
 
@@ -82,7 +82,7 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>3</h4>
+                            <p className="ItemNumber">3</p>
 
                             <img src="/img/numero-cups.png" alt="yo-leo-gas-icono" />
 
@@ -94,7 +94,7 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>4</h4>
+                            <p className="ItemNumber">4</p>
 
                             <img src="/img/recordatorio.png" alt="yo-leo-gas-icono" />
 
@@ -106,7 +106,7 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>5</h4>
+                            <p className="ItemNumber">5</p>
 
                             <img src="/img/tomar-foto-contador.png" alt="yo-leo-gas-icono" />
 
@@ -119,7 +119,7 @@ const Info = () => {
 
                         <div className="PasosItem card d-flex justify-content-start align-items-center">
 
-                            <h4>6</h4>
+                            <p className="ItemNumber">6</p>
 
                             <img src="/img/enviar-foto-ok.png" alt="yo-leo-gas-icono" />
 
@@ -142,9 +142,9 @@ const Info = () => {
 
                         <div className="InfoForm">
 
-                            <h4>¿Todavía no tienes contratado el gas con Gana Energía? </h4>
+                            <h3>¿Todavía no tienes contratado el gas con Gana Energía? </h3>
                             <p>
-                                Te invitamos a entrar en <a href="https://ganaenergia.com/tarifas-gas">ganaenergía/gas</a> para conocer nuestras competitivas tarifas. <br/><br/>
+                                Te invitamos a entrar en <a href="https://ganaenergia.com/tarifas-gas">nuestra página de gas</a> para conocer nuestras competitivas tarifas. <br/><br/>
                                 
                                 O si lo prefieres nos puedes dejar tus datos a continuación y seremos nosotros los que nos pongamos en contacto contigo.
                             </p>
