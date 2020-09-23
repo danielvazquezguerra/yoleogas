@@ -154,19 +154,19 @@ const Info = () => {
                         <form className="Formulario d-flex flex-column align-items-start" id='homeserve' method='post' action='envio3.php'>
                             <div className="form-group">
                               <label htmlFor="formGroupExampleInput">Nombre</label>
-                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                              <input type="text" className="form-control" name="nombre" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
                               <label htmlFor="formGroupExampleInput">Apellido</label>
-                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                              <input type="text" className="form-control" name="apellido" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
                               <label htmlFor="formGroupExampleInput">Email</label>
-                              <input type="text" className="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
+                              <input type="text" className="form-control" name="email" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
                             </div>
                             <div className="form-group">
                               <label htmlFor="formGroupExampleInput2">Teléfono</label>
-                              <input type="text" className="form-control" id="formGroupExampleInput2" name="telefono2" placeholder="Déjanos tu teléfono" />
+                              <input type="text" className="form-control" id="formGroupExampleInput2" name="telefono" placeholder="Déjanos tu teléfono" />
                             </div>
                             <div className="proteccion-datos">
     
