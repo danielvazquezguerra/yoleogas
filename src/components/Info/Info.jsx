@@ -151,7 +151,7 @@ const Info = () => {
 
                         </div>
 
-                        <form className="Formulario d-flex flex-column align-items-start" id='homeserve' method='post' action='envio3.php'>
+                        <form className="Formulario d-flex flex-column align-items-start" id='homeserve' method='post' action='envio2.php'>
                             <div className="form-group">
                               <label htmlFor="formGroupExampleInput">Nombre</label>
                               <input type="text" className="form-control" name="nombre" id="formGroupExampleInput" placeholder="Escribe tu nombre" />
@@ -184,7 +184,7 @@ const Info = () => {
     
                                 
                             </div>
-                            <button>ENVIAR</button>
+                            <button id='button1' onclick='onSubmitA()'>ENVIAR</button>
                         </form>  
 
                     </div>

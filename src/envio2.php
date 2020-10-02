@@ -7,15 +7,15 @@
  */
 
 $nombre = strip_tags(str_replace(array('"', "'",' '), "_", $_POST["nombre"]));
+$nombre = strip_tags(str_replace(array('"', "'",' '), "_", $_POST["apellido"]));
 $telefono = $_POST["telefono"];
 $email = strtolower($_POST["email"]);
-$provincia = $_POST["provincia"];
 
 //API VIEJA
 //$str= "?apikey=G1zY3bngmXYxaBRp1MJVXfLv7bAPHVtM1KtMah6dZqRBvMAJFB&nombre=".$nombre."&telefono=".$telefono."&email=".$email."&tsource=LANDING-CAMBIATE";
 
 //API SALESFORCE
-$str = "?cid=sem&name=".$nombre."&lname=.&phone=".$telefono."&email=".$email;
+$str = "?cid=gas&name=".$nombre."&lname=".$apellido."&phone=".$telefono."&email=".$email;
 
 $ch=curl_init();
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
